@@ -1,0 +1,71 @@
+*{
+    font-family:monospace;
+    margin: 0;
+    background-color: #272336;
+    color: white;
+}
+
+header{
+    color: white;
+    background-color: #484067;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#caixa::-webkit-scrollbar{
+    width: 5px;
+    background: #272336;
+}
+#caixa::-webkit-scrollbar-thumb{
+    background-color: #756d92;
+    border-radius: 6px;
+}
+
+#caixa::-webkit-scrollbar-thumb:hover {
+    background-color: #5c4c96;
+}
+
+#caixa{
+    width: 85%;
+    margin: 7rem auto 0 auto;
+    border: solid 4px;
+    border-radius: 5%;
+    display: flex;
+    padding: 1rem;
+    overflow-x: scroll;
+}
+
+
+#caixa div img{
+    margin-right: 30px;
+    width: 125px;
+    height: 175px;
+}
+
+
+/*-----------------------------------------------------------*/
+main img{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+main p{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+footer{
+    color: white;
+    background-color: #484067;
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
