@@ -3,11 +3,13 @@
 {% block base %}
     <main>
         <div class="caixa">
+            {% for filme_id in cards %}
             <div>
                 <a href="{% url 'about'%}">
-                    <img src="{% static 'img/bluelock.jpg'%}" alt="">
+                    <img src="{% static 'img/'%} {{ filme.bluelock.jpg }}" alt="">
                 </a>
             </div>
+            {% endfor %}
         </div>
     </main>
 
