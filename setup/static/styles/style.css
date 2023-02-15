@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(66, 58, 98);
     color: white;
 }
@@ -46,8 +46,8 @@ header div h1{
 
 .caixa div img{
     margin-right: 30px;
-    width: 125px;
-    height: 175px;
+    width: 160px;
+    height: 250px;
 }
 
 

@@ -1,7 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404  
+from home.models import Filme
 
 def index(request):
-    return render(request, 'index.html')
+    filmes = Filme.objects.all()
+    return render(request, 'index.html', {"cards": filmes})
 
-def about(request):
-    return render(request, 'about.html')
+def about(request, filme_id):
+    filme = get_object_or_404(Filme, pk=filme_id)
+    return render(request, 'about.html', {"filme": filme})

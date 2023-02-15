@@ -2,16 +2,14 @@
 {% load static %}
 {% block base %}
     <main>
-        <img id="about" src="{% static 'img/bluelock.jpg'%}" alt="">
-        <h2 align="center">BLUE LOCK</h2>
-        <p align="center">Ano 2022</p>
-        <p align="center">Recomendado 14 anos</p>
-        <p align="center">Estúdio</p>
-        <p align="center">Criador</p>
+        <img id="about" src="{% static 'img/'%}{{ filme.foto }}" alt="">
+        <h2 align="center">{{ filme.nome }}</h2>
+        <p align="center">{{ filme.ano }}</p>
+        <p align="center">Recomendado {{ filme.recomendacao }} anos</p>
+        <p align="center">Estúdio: {{ filme.estudio }}</p>
         <br>
         <br>
         <h2 align="center">Sinopse</h2>
-        <p align="center">Sinopse: Em 2018, a seleção japonesa terminou em 16º lugar na Copa do Mundo da FIFA . Como resultado, a União Japonesa de Futebol contrata o enigma do futebol Ego Jinpachi. Seu plano mestre para levar o Japão ao estrelato é Blue Lock, um regime de treinamento projetado para criar o maior atacante egoísta do mundo.</p>
-    
+        <p align="center"> {{ filme.sinopse }}</p>
     </main>
 {% endblock base %}

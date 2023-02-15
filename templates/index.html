@@ -3,13 +3,16 @@
 {% block base %}
     <main>
         <div class="caixa">
-            {% for filme_id in cards %}
+            {% if cards %}
+            {% for filme in cards %}
             <div>
-                <a href="{% url 'about'%}">
-                    <img src="{% static 'img/'%} {{ filme.bluelock.jpg }}" alt="">
+                <a href="{% url 'about' filme.id %}">
+                    <img src="{% static 'img/'%}{{ filme.foto }}" alt="">
                 </a>
             </div>
             {% endfor %}
+            {% else %}
+            {% endif %}
         </div>
     </main>
 
