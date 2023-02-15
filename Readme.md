@@ -7,10 +7,13 @@ Este é um projeto pessoal em Django no qual filmes séries livros podem ser cad
 [en-US]
 This is a personal project in Django in which films, series and books can be registered in a few clicks, facilitating access and administration of the system and the database. It was built in Python along with the Django framework, also using HTML, CSS and SQLite.
 
+![img](Site.png)
+![img](Sobre.png)
+
 # Video
 | Thumb | Description |
 | :-: | --- |
-| [![img](google.com/imagem)](google.com) | [Recording....]()
+| [![img]()](https://youtu.be/Y982gZcIpsk) | [GuiFlix - DJango]()
 
 ## Technologies Used
 - python 3.11.1
