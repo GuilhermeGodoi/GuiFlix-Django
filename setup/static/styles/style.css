@@ -6,11 +6,16 @@
 }
 
 header div h1{
-    font-family: 'Bebas Neue', cursive;
     background-image: linear-gradient(rgb(39, 31, 72), rgb(66, 58, 98));
     color: white;
     padding: 30px;
     font-size: 50px;
+}
+
+header div h1 a{
+    background-color: #00000000;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
 }
 
 .caixa::-webkit-scrollbar{
@@ -46,7 +51,7 @@ header div h1{
 
 .caixa div img{
     margin-right: 30px;
-    width: 160px;
+    width: 165px;
     height: 250px;
 }
 
