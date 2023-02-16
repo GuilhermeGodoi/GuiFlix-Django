@@ -1,6 +1,6 @@
 *.py linguist-detectable=true
 *.js linguist-detectable=false
-*.html linguist-detectable=true
-*.css linguist-detectable=true
+*.html linguist-detectable=false
+*.css linguist-detectable=false
 *.sqlite3 linguist-detectable=true
 *.xml linguist-detectable=false
