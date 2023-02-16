@@ -13,7 +13,7 @@ This is a personal project in Django in which films, series and books can be reg
 # Video
 | Thumb | Description |
 | :-: | --- |
-| [![img]()](https://youtu.be/Y982gZcIpsk) | [GuiFlix - DJango]()
+| [![img](https://img.youtube.com/vi/Y982gZcIpsk/default.jpg)](https://youtu.be/Y982gZcIpsk) | [GuiFlix - DJango]()
 
 ## Technologies Used
 - python 3.11.1
