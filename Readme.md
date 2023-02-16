@@ -2,7 +2,7 @@
 # GuiFlix Django
 
 [pt-BR] 
-Este é um projeto pessoal em Django no qual filmes séries livros podem ser cadastrados em poucos cliques facilitando o acesso e administração do sistema e do banco de dados. Ele foi contruido em Python juntamente com o framework Django, usando também HTML, CSS e SQLite.
+Este é um projeto pessoal em Django no qual filmes séries livros podem ser cadastrados em um catálogo com poucos cliques, facilitando o acesso e administração do sistema e do banco de dados. Ele foi contruido em Python juntamente com o framework Django, usando também HTML, CSS e SQLite.
 
 [en-US]
 This is a personal project in Django in which films, series and books can be registered in a few clicks, facilitating access and administration of the system and the database. It was built in Python along with the Django framework, also using HTML, CSS and SQLite.
@@ -47,3 +47,8 @@ $ py manage.py migrate
 ```
 $ py manage.py runserver
 ```
+
+# Contacts
+E-mail: guilhermegodoibarreiros2@gmail.com
+
+Linkedin: https://www.linkedin.com/in/guilherme-godoi-barreiros/
