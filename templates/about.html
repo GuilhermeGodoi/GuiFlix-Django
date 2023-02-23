@@ -1,7 +1,7 @@
 {% extends 'partials/base.html' %}
 {% load static %}
 {% block base %}
-    <main>
+ 
         <img id="about" src="{% static 'img/'%}{{ filme.foto }}" alt="">
         <h2 align="center">{{ filme.nome }}</h2>
         <p align="center">{{ filme.ano }}</p>
@@ -11,5 +11,5 @@
         <br>
         <h2 align="center">Sinopse</h2>
         <p align="center"> {{ filme.sinopse }}</p>
-    </main>
+   
 {% endblock base %}

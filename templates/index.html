@@ -1,7 +1,7 @@
 {% extends 'partials/base.html' %}
 {% load static %}
 {% block base %}
-    <main>
+    
         <div class="caixa">
             {% if cards %}
             {% for filme in cards %}
@@ -14,7 +14,7 @@
             {% else %}
             {% endif %}
         </div>
-    </main>
+    
 
     <script src="script.js"></script>
 {% endblock base %}
