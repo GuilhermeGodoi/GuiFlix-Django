@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #756d92;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #5c4c96;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.box a {
+  color: #5c4c96;
+  text-decoration: underline;
+}
+
+.box a:hover {
+  color: #756d92;
+}
+
+.box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.box .form-group {
+  margin-bottom: 20px;
+}
+
+.box .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.box .form-group input[type="text"],
+.box .form-group input[type="password"] {
+  border: 1px solid #756d92;
+}
+
+.box .form-group input[type="text"]:focus,
+.box .form-group input[type="password"]:focus {
+  border: 1px solid #5c4c96;
+  outline: none;
+}
+
+.box .form-group button {
+  background-color: #756d92;
+}
+
+.box .form-group button:hover {
+  background-color: #5c4c96;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    max-width: 100%;
+  }
+}

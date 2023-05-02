@@ -1,0 +1,61 @@
+/* Estilo global para todas as páginas */
+
+body {
+    background-color: #756d92;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para os botões */
+  
+  button {
+    background-color: #5c4c96;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(39, 31, 72);
+  }
+  
+  /* Estilo para os links */
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(66, 58, 98);
+  }
+  
+  /* Estilo para os formulários */
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #5c4c96;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(39, 31, 72);
+  }

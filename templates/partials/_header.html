@@ -1,10 +1,19 @@
 {% load static %}
 <header>
-    <div>
-        <h1>
-            <a href="/" target="" target="blank">
-                GuiFlix
-            </a>
-        </h1>
+  <div class="header-container">
+
+    <h1 id="logoh1">
+      <a id="logoa" href="/" target="_blank">
+        GuiFlix
+      </a>
+    </h1>
+    <div class="user-dropdown">
+      <img src="{% static 'img/user-icon.png' %}" alt="User">
+      <ul class="dropdown">
+        <li><a href="/accounts/login/">Login</a></li>
+        <li><a href="../accounts/signup/">Cadastro</a></li>
+      </ul>
     </div>
+
+  </div>
 </header>

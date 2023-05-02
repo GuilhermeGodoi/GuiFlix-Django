@@ -23,6 +23,10 @@ header div h1 a{
     min-height: calc(100vh - 126px - 92px );
 }
 
+#genero{
+    margin-bottom: 10px;
+}
+
 .caixa::-webkit-scrollbar{
     height: 0.5em;
     background: #272336;

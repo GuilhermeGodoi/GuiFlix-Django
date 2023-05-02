@@ -2,14 +2,14 @@
 {% load static %}
 {% block base %}
  
-        <img id="about" src="{% static 'img/'%}{{ filme.foto }}" alt="">
-        <h2 align="center">{{ filme.nome }}</h2>
-        <p align="center">{{ filme.ano }}</p>
-        <p align="center">Recomendado {{ filme.recomendacao }} anos</p>
-        <p align="center">Estúdio: {{ filme.estudio }}</p>
-        <br>
-        <br>
-        <h2 align="center">Sinopse</h2>
-        <p align="center"> {{ filme.sinopse }}</p>
+<img id="about" src="{% static 'img/'%}{{ filme.foto }}" alt="">
+<h2 align="center">{{ filme.nome }}</h2>
+<p align="center">{{ filme.ano }}</p>
+<p align="center">Recomendado {{ filme.recomendacao }} anos</p>
+<p align="center">Estúdio: {{ filme.estudio }}</p>
+<br>
+<br>
+<h2 align="center">Sinopse</h2>
+<p align="center"> {{ filme.sinopse }}</p>
    
 {% endblock base %}

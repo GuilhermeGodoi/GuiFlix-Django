@@ -1,37 +1,125 @@
-*{
+* {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(66, 58, 98);
     color: white;
 }
 
-header div h1{
-    font-family: 'Bebas Neue', cursive;
+/* HEADER */
+
+header {
     background-image: linear-gradient(rgb(39, 31, 72), rgb(66, 58, 98));
-    color: white;
-    padding: 30px;
-    font-size: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#main-content{
-    padding: 20px;
+.header-container {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+#logoh1 {
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#logoa {
+    background-color: transparent;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-dropdown {
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.user-dropdown img {
+    background-color: transparent;
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease-in-out;
+    border-radius: 15px;
+    border: 3px solid white;
+
+}
+
+.dropdown li {
+    margin-bottom: 10px;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.user-dropdown:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* FIM HEADER*/
+
+
+
+#main-content {
     min-height: calc(100vh - 126px - 92px);
 }
 
-.caixa::-webkit-scrollbar{
+#genero {
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    height: 0.5em;
+    border-radius: 6px;
+    background: #5d547d;
+}
+
+.caixa::-webkit-scrollbar {
     height: 0.5em;
     background: #272336;
 }
-.caixa::-webkit-scrollbar-thumb{
-    background-color: #756d92;
+
+::-webkit-scrollbar-thumb {
     border-radius: 6px;
+    background-color: #756d92;
+
 }
 
-.caixa::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background-color: #5c4c96;
 }
 
-.caixa{
+.caixa {
     width: 85%;
     margin: 7rem auto 0 auto;
     border: solid 4px;
@@ -39,17 +127,17 @@ header div h1{
     display: flex;
     padding: 1rem;
     overflow-x: scroll;
-    
+
     background-color: #272336;
 }
 
-.caixa div{
-    
+.caixa div {
+
     background-color: #272336;
 }
 
 
-.caixa div img{
+.caixa div img {
     margin-right: 30px;
     width: 165px;
     height: 250px;
@@ -57,20 +145,21 @@ header div h1{
 
 
 /*-----------------------------------------------------------*/
-main img{
+main img {
     margin-top: 30px;
+    margin-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
 }
 
-main p{
+main p {
     margin-left: 300px;
     margin-right: 300px;
 }
 
-footer{
+footer {
     font-family: 'Bebas Neue', cursive;
     background-image: linear-gradient(rgb(66, 58, 98), rgb(39, 31, 72));
     color: white;
